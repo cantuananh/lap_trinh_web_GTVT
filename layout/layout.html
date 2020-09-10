@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout</title>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <ul>
+            <li><a href="https://quantrimang.com/">Trang chủ</a></li>
+            <li><a href="https://quantrimang.com/lang-cong-nghe">Làng Công nghệ</a></li>
+            <li><a href="https://quantrimang.com/cong-nghe">Công nghệ</a></li>
+            <li><a href="https://quantrimang.com/khoa-hoc">Khoa học</a></li>
+            <li><a href="https://quantrimang.com/cuoc-song">Cuộc sống</a></li>
+        </ul>
+    </div>
+    <div class="left">
+        <ul>
+            <li><a href="https://quantrimang.com/">Trang chủ</a></li>
+            <li><a href="https://quantrimang.com/lang-cong-nghe">Làng Công nghệ</a></li>
+            <li><a href="https://quantrimang.com/cong-nghe">Công nghệ</a></li>
+            <li><a href="https://quantrimang.com/khoa-hoc">Khoa học</a></li>
+            <li><a href="https://quantrimang.com/cuoc-song">Cuộc sống</a></li>
+        </ul>
+    </div>
+    <div class="main">Main</div>
+    <div class="right">Right</div>
+    <div class="footer">
+        <h3>© 2020 Copyright: CẤN TUẤN ANH</h3>
+    </div>
+</div>
+</body>
+<style>
+
+    .header a {
+        display: block;
+        padding: 8px;
+        background-color: palevioletred;
+    }
+
+    .header li {
+        float: left;
+        font-size: 30px;
+    }
+
+    .header ul {
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+    .header li a:hover {
+        background-color: #db7093;
+        font-weight: bold;
+        color: white;
+    }
+
+    body {
+        background-image: linear-gradient(#90796a, white);
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .header {
+        background-color: cornflowerblue;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .left {
+        background-color: yellow;
+        height: 600px;
+        width: 20%;
+        float: left;
+    }
+
+    .left ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+    }
+
+    .left li a {
+        display: block;
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    .left li a:hover {
+        background-color: #db7093;
+        font-weight: bold;
+        color: white;
+    }
+
+    .main {
+        background-color: greenyellow;
+        height: 600px;
+        width: 60%;
+        float: left;
+    }
+
+    .right {
+        background-color: white;
+        height: 600px;
+        width: 20%;
+        float: left;
+    }
+
+    .footer {
+        background-color: red;
+        height: 80px;
+        clear: both;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+</html>
